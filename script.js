@@ -1,5 +1,5 @@
 const historico = ["Estudar React Native", "Leitura diária", "Descanso longo"]
-const playlist = ["Lofi Brasil", "Music to Focus", "Twenty One Pilots - The Line"]
+
 
 
 function truncateText(text, maxLength = 20) {
@@ -19,7 +19,6 @@ function MappingList (items, elementId) {
 }
 
 MappingList(historico, "historico-list");
-MappingList(playlist, "playlist-list");
 
 function addToHistorico() {
     const input = document.getElementById("floatingInput");
@@ -58,6 +57,7 @@ function iniciarContador () {
 function pausarContador () {
     clearInterval(intervalo);
     contadorAtivo = true;
+    iniciarContador();
 }
 
 function pararContador () {

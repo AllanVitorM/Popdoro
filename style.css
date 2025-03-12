@@ -64,10 +64,51 @@ main{
     color: white;
 }
 
+#playlist-list {
+    width: 100%;
+    height: calc(10vh - 10px);
+    overflow-y: auto;
+    
+}
+
+#musicControl{
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+}
+@media (max-width: 601px) {
+    #musicControl {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+}
+
+
+
+button {
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
 .text-truncate {    
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.InputPesquisa {
+    background-color: transparent;
+    padding: 10px;
+    color: #000;
+    flex: 1;
+    border: 1px solid #00000040;
+    border-radius: 2px 0px 0px 2px;
+    width: 400px;
+    height: 45px;
+    outline: none;
 }
 
 .controles {
