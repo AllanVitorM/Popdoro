@@ -1,6 +1,6 @@
 const Config = {
     CLIENT_ID_SPOTIFY: "947fb579139f47eead7bf748488bd567",
-    URL_PAGE: "http://127.0.0.1:5500/index.html",
+    URL_PAGE: "https://popdoro.netlify.app/",
     AUTH_URL: "https://accounts.spotify.com/authorize",
     SCOPES: [
         "user-read-private",
