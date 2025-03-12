@@ -1,21 +1,20 @@
 {
-    "name": "Popdoro",
-    "short_name": "Pop",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000020",
-    "icons": [
-      {
-        "src": "/img/icons/180.png",
-        "sizes": "180x180",
-        "type": "image/png"
-      },
-      {
-        "src": "/img/icons/512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "name": "Popdoro",
+  "short_name": "Pop",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000200",
+  "icons": [
+    {
+      "src": "/img/180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
